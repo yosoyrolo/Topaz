@@ -50,3 +50,13 @@ body, html, #app{
 	height: 100%;
 	width: 100%;
  }
+
+ .pageThumbnail{
+ 	width: 100%;
+ 	height: 64px;
+ 	background-color: #00A2FF;
+ 	color: white;
+ 	text-align: center;
+ 	line-height: 64px;
+ 	font-family: helvetica;
+ }
