@@ -1,0 +1,52 @@
+body, html, #app{
+	position: relative;
+	background-color: white;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	min-height: 100vh;
+	height: 100vh;
+	max-height: 100vh;
+	overflow: hidden;
+}
+
+.panel{
+	background-color: #434343;
+	border: solid;
+	border-width: 1px;
+	border-color: #6c6c6c;
+	box-sizing: border-box;
+	height: 100%;
+}
+
+#top{
+	position: relative;
+	height: 32px;
+	width: 100vw;
+	grid-template-columns: 96px auto 30%;
+	box-sizing: border-box;
+	display: grid;
+}
+
+#bottom{
+	height: 100%;
+	width: 100%;
+	position: relative;
+	display: grid;
+	grid-template-columns: 96px auto 30%;
+  }
+
+ #pagesPanel{
+	height: 100%;
+	width: 100%;
+ }
+
+ #webPanel{
+	height: 100%;
+	width: 100%;
+ 	background-color: white;
+ }
+  #settingsPanel{
+	height: 100%;
+	width: 100%;
+ }
